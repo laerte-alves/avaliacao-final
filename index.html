@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principais comando GIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>O QUE É GIT</h1>
+  <p>
+    Git é um sistema de controle de versão distribuído, usado principalmente no desenvolvimento de software, 
+    para rastrear mudanças em arquivos ao longo do tempo. Ele permite que várias pessoas trabalhem em um mesmo 
+    projeto de forma colaborativa, facilitando o gerenciamento de alterações e o trabalho em equipe.
+  </p>
+
+  <h2>Configuração Inicial</h2>
+  <pre>
+    <code>
+      git config --global user.name "Seu Nome"
+      git config --global user.email "seuemail@exemplo.com"
+    </code>
+  </pre>
+
+  <h2>Criar e Inicializar Repositório</h2>
+  <pre>
+    <code>
+      git init
+    </code>
+  </pre>
+
+  <h2>Adicionar e Confirmar Alterações</h2>
+  <pre>
+    <code>
+      git add .
+      git commit -m "Sua mensagem de commit"
+    </code>
+  </pre>
+
+  <h2>Verificar o Status</h2>
+  <pre>
+    <code>
+      git status
+    </code>
+  </pre>
+
+  <h2>Histórico de Commits</h2>
+  <pre>
+    <code>
+      git log
+    </code>
+  </pre>
+
+  <h2>Branches</h2>
+  <pre>
+    <code>
+      git branch nome_da_branch
+      git checkout nome_da_branch
+      git merge nome_da_branch
+      git branch
+    </code>
+  </pre>
+
+  <h2>Trabalhando com Repositórios Remotos</h2>
+  <pre>
+    <code>
+      git remote add origin URL_do_repositorio_remoto
+      git push origin nome_da_branch
+      git pull origin nome_da_branch
+      git clone URL_do_repositorio_remoto
+    </code>
+  </pre>
+
+</body>
+</html>
